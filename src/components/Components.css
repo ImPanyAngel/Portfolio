@@ -75,7 +75,7 @@ nav {
 }
 
 .project-image {
-    width: calc(100% - 100px);
+    width: 90%;
     margin: 0 50px;
     object-fit: cover;
     box-sizing: border-box;
