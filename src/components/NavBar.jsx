@@ -17,7 +17,7 @@ function Navbar() {
         <li>
           <a href="https://www.linkedin.com/in/panayiotis-angelides-0bb802326/" target="_blank" rel="noopener noreferrer">
             <div className="icon-container">
-              <img src='src/assets/linkedIn-icon.png' alt='LinkedIn'/>
+              <img src='./src/assets/linkedIn-icon.png' alt='LinkedIn'/>
               <span className="icon-text">LinkedIn</span>
             </div>
           </a>
@@ -26,16 +26,16 @@ function Navbar() {
         <li>
           <a href="https://github.com/ImPanyAngel" target="_blank" rel="noopener noreferrer">
             <div className="icon-container">
-              <img src='src/assets/github-icon.png' alt='GitHub'/>
+              <img src='./src/assets/github-icon.png' alt='GitHub'/>
               <span className="icon-text">GitHub</span>
             </div>
           </a>
         </li>
 
         <li>
-          <a href="src/assets/resume-draft.pdf" download="Panayiotis-Angelides-Resume.pdf">
+          <a href="./src/assets/resume-draft.pdf" download="Panayiotis-Angelides-Resume.pdf">
             <div className="icon-container">
-              <img src='src/assets/resume-icon.jpg' alt='Resume'/>
+              <img src='./src/assets/resume-icon.jpg' alt='Resume'/>
               <span className="icon-text">Resume</span>
             </div>
           </a>

@@ -11,7 +11,7 @@ function MoneyManager(){
         <section>
             <h1 className="money-manager-title">MoneyManager</h1>
             <p className="money-manager-intro">My experience designing and creating my first mobile application.</p>
-            <img src="src/assets/money-manager-image.png" alt="project-image" className="money-manager-project-image"/>
+            <img src="./src/assets/money-manager-image.png" alt="project-image" className="money-manager-project-image"/>
         </section>
 
         <hr className="section-divider"/>
@@ -45,7 +45,7 @@ function MoneyManager(){
         <section>
             <h2 className="section-title">Inital Design</h2>
             <p>I began by sketching a basic layout for the UI to get a visual sense of the app&rsquo;s structure. Early on, I realized the app would need at least two main pages to effectively organize the features I had in mind. This initial sketch allowed me to outline key elements and interactions, helping to refine the app&rsquo;s functionality and flow before diving into development.</p>
-            <img src="src/assets/money-manager-inital-sketch.jpeg" alt="skecth-image" className="money-manager-sketch-image"/>
+            <img src="./src/assets/money-manager-inital-sketch.jpeg" alt="skecth-image" className="money-manager-sketch-image"/>
         </section>
 
         <hr className="section-divider"/>
