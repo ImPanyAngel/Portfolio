@@ -1,6 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import './Components.css';
 
+import linkedInIcon from '../assets/linkedIn-icon.png';
+import githubIcon from '../assets/github-icon.png';
+import resumeIcon from '../assets/resume-icon.jpg';
+import resumePDF from '../assets/resume-draft.pdf';
+
 function Navbar() {
   return (
     <nav>
@@ -17,7 +22,7 @@ function Navbar() {
         <li>
           <a href="https://www.linkedin.com/in/panayiotis-angelides-0bb802326/" target="_blank" rel="noopener noreferrer">
             <div className="icon-container">
-              <img src='../assets/linkedIn-icon.png' alt='LinkedIn'/>
+              <img src={linkedInIcon} alt='LinkedIn'/>
               <span className="icon-text">LinkedIn</span>
             </div>
           </a>
@@ -26,16 +31,16 @@ function Navbar() {
         <li>
           <a href="https://github.com/ImPanyAngel" target="_blank" rel="noopener noreferrer">
             <div className="icon-container">
-              <img src='../assets/github-icon.png' alt='GitHub'/>
+              <img src={githubIcon} alt='GitHub'/>
               <span className="icon-text">GitHub</span>
             </div>
           </a>
         </li>
 
         <li>
-          <a href="../assets/resume-draft.pdf" download="Panayiotis-Angelides-Resume.pdf">
+          <a href={resumePDF} download="Panayiotis-Angelides-Resume.pdf">
             <div className="icon-container">
-              <img src='../assets/resume-icon.jpg' alt='Resume'/>
+              <img src={resumeIcon} alt='Resume'/>
               <span className="icon-text">Resume</span>
             </div>
           </a>
