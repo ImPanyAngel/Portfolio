@@ -4,7 +4,7 @@ import './Components.css';
 import linkedInIcon from '../assets/linkedIn-icon.png';
 import githubIcon from '../assets/github-icon.png';
 import resumeIcon from '../assets/resume-icon.jpg';
-import resumePDF from '../assets/resume-draft.pdf';
+import resumePDF from '../assets/resume.pdf';
 
 function Navbar() {
   return (
