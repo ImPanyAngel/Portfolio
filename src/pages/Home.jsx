@@ -1,7 +1,7 @@
 import Navbar from "../components/NavBar";
 import Project from "../components/Project";
 
-import moneyManagerIntro from './assets/money-manager-intro.png';
+import moneyManagerIntro from '../assets/money-manager-intro.png';
 
 function Home(){
     
