@@ -1,1 +1,1 @@
-export const projectsArray = ['MoneyManager'];
+export const projectsArray = ['MoneyManager', 'PasswordManager'];

@@ -1,16 +1,17 @@
 import PropTypes from 'prop-types';
-import './Components.css';
 import { NavLink } from 'react-router-dom';
+import { projectsArray } from "../components/projects-array";
+import './Components.css';
 
-function ProjectFooter({ projects }) {
+function ProjectFooter() {
   return (
     <footer className='projects-footer'>
         <ul>
             <li>
                 <NavLink to="/">All</NavLink>
             </li>
-            
-            {projects.map((project, index) => (
+
+            {projectsArray.map((project, index) => (
                 <li key={index}>
                     <NavLink style={({ isActive }) => isActive ? {color:'black'} : {}} to={`/${project}`}>{project}</NavLink>
                 </li>
